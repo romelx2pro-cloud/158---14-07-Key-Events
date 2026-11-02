@@ -1,0 +1,21 @@
+.redColor {
+  color: red;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column; /* keeps items stacked vertically if you have d1, d2, d3 */
+  justify-content: center; /* centers items vertically */
+  align-items: center; /* centers items horizontally (optional) */
+  /* height: 300px; give the parent a height so there is room to center */
+  margin-bottom: 5px;
+}
+/* body {
+  display: flex;
+} */
+.textAlign {
+  text-align: center;
+}
